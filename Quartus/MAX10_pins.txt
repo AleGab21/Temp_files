@@ -1,0 +1,33 @@
+Klokker:
+	ADC_CLK_10 	- PIN_N5	- 10 MHz clock input for ADC
+	MAX10_CLK1_50 	- PIN_P11	- 50 MHz clock input
+	MAX10_CLK2_50	- PIN_N14	- 50 MHz clock input
+
+Push-knapper:
+	KEY0	- PIN_B8	- Push button 0 (øvre)
+	KEY1	- PIN_A7	- Push button 1 (nedre)
+
+Switcher:
+	SW0	- PIN_C10	- switch lengst til høyre
+	SW1	- -||-C11	
+	SW2	- D12
+	SW3	- C12
+	SW4	- A12
+	SW5	- B12
+	SW6	- A13
+	SW7	- A14
+	SW8	- B14
+	SW9	- F15
+
+LED:
+	LEDR0	- A8
+	LEDR1	- A9
+	LEDR2	- A10
+	LEDR3	- B10
+	LEDR4	- D13
+	LEDR5	- C13
+	LEDR6	- E14
+	LEDR7	- D14
+	LEDR8	- A11
+	LEDR9	- B11
+	

@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity registered_adder is
+	port (
+		clk: in std_logic;
+		a, b: in std_logic_vector(2 downto 0);
+		sum, sum_reg: out std_logic_vector(3 downto 0));
+end entity;
+
+architecture rtl of registered_adder is 
+begin 
+	sum <= std_logic_vector(('0' & unsigned(a)) + unsigned(b));
+	process(clk)
+		begin
+		if rising_edge(clk) then
+			sum_reg <= sum;
+		end if;
+	end process;
+end architecture;

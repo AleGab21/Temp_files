@@ -1,0 +1,2 @@
+navn: MAX10
+enhet: 10M50DAF484C7G
